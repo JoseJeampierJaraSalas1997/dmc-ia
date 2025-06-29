@@ -1,0 +1,55 @@
+# Entornos virtuales
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Archivos y carpetas de configuración de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Archivos de log y datos temporales
+*.log
+*.sqlite3
+*.db
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Archivos de Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Configuración de VS Code / PyCharm
+.vscode/
+.idea/
+
+# Config de Streamlit
+.streamlit/secrets.toml  # ⛔ No subir claves privadas
+
+# Archivos de audio temporales usados por gTTS o TTS
+*.mp3
+*.wav
+
+# Resultados y salidas
+/output/
+*.csv
+*.xlsx
+
+# Archivos comprimidos
+*.zip
+*.tar.gz
+*.rar
+
+# Streamlit cache (opcional)
+.streamlit/cache/
+
+# Otros
+*.egg-info/
+dist/
+build/
